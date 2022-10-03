@@ -212,7 +212,7 @@ img#truck {
 img#balloon {
     position: relative;
     top: 5vh;
-    left: 40%;
+    left: 30%;
     width: auto;
     height: 50%;
     z-index: 999;

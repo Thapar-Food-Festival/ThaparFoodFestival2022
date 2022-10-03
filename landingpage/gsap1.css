@@ -73,7 +73,7 @@ html, body {
 }
 
 .panel {
-	width: 100%;
+	width: 27%;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -83,6 +83,7 @@ html, body {
   text-align: center;
   color: white;
   position: relative;
+  right: 85px;
   box-sizing: border-box;
   padding: 10px;
 }
@@ -146,4 +147,9 @@ header {
   height: 20px;
   background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj4KPHBhdGggZmlsbD0iYmxhY2siIGQ9Ik00ODMuMiwxOTIuMmMtMjAuNS0yMC41LTUzLjUtMjAuOC03My43LTAuNkwyNTcsMzQ0LjFMMTA0LjUsMTkxLjZjLTIwLjItMjAuMi01My4yLTE5LjktNzMuNywwLjYKCWMtMjAuNSwyMC41LTIwLjgsNTMuNS0wLjYsNzMuN2wxOTAsMTkwYzEwLjEsMTAuMSwyMy40LDE1LjEsMzYuOCwxNWMxMy4zLDAuMSwyNi43LTQuOSwzNi44LTE1bDE5MC0xOTAKCUM1MDMuOSwyNDUuNyw1MDMuNywyMTIuNyw0ODMuMiwxOTIuMnoiLz4KPC9zdmc+);
   background-size: contain;
+}
+.text-box,.final1{
+  position: relative;
+    left: -320px;
+    top: -100px;
 }
