@@ -47,13 +47,24 @@ gsap.to(".box-1 .typing_text", {
   }
 });
 
+
+gsap.from("#truck", {
+  scrollTrigger: {
+    scrub: true,
+  },
+  x: -1300,
+  // y: 10,
+  scale: 0.9,
+});
+
 gsap.to("#truck", {
   scrollTrigger: {
     scrub: true,
   },
-  x: 2000,
+  x: 500,
   // y: 10,
   scale: 0.9,
+  duration:1
 });
 
 

@@ -153,3 +153,10 @@ header {
     left: -320px;
     top: -100px;
 }
+.panel-2{
+  position: relative;
+  right: -850px;
+}
+.panel-3{
+  display: none;
+}

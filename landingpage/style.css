@@ -212,7 +212,8 @@ img#truck {
 img#balloon {
     position: relative;
     top: 5vh;
-    left: 30%;
+    display: flex;
+    margin: auto;
     width: auto;
     height: 50%;
     z-index: 999;
@@ -293,7 +294,8 @@ img#balloon {
     /* overflow: hidden; */
     z-index: 2;
     animation: floating 2s  infinite;
-  
+    position: relative;
+    left: -31px;
 }
 
 
