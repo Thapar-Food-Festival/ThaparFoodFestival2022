@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 .panel.align-top {
   align-items: flex-start;
 }
@@ -150,13 +152,35 @@ header {
 }
 .text-box,.final1{
   position: relative;
-    left: -320px;
+    left: 150px;
     top: -100px;
 }
 .panel-2{
   position: relative;
-  right: -850px;
+  right: -700px;
 }
 .panel-3{
-  display: none;
+  position: relative;
+  left: 1100px;
+}
+.theme{
+  position: relative;
+    left: 750px;
+    top: -100px;  
+}
+.sponsors{
+  background-color: #b6e7f6;
+  height: 150px;
+  width: 150px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+}
+.tspon{
+  position: relative;
+  left: -350px;
+  font-size: 70px;
+  width: 30px;
+  color:black;
+  font-family: 'Pacifico', cursive;
 }
