@@ -219,12 +219,14 @@ h1, h2, p, li {
     top: -100px;  
 }
 .sponsors{
-  background-color: #b6e7f6;
-  height: 150px;
-  width: 150px;
-  padding: 20px;
-  margin: 10px;
-  border-radius: 10px;
+    background-color: #b6e7f6;
+    height: 122px;
+    width: 182px;
+    padding: 14px;
+    margin: 10px;
+    border-radius: 10px;
+    position: relative;
+    top: 45px;
 }
 .tspon{
   position: relative;
