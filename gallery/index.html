@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="web.css" />]
+</head>
+<body>
+   <div class="seq">
+        <img src="https://media.giphy.com/media/8j27Sbhwa3auBmkkjC/giphy.gif" id="recpl">
+   </div>
+   <div class="2019">
+        <button class="button19" onclick="gif2019()" id="b19" value="Change">
+            <p>
+                '19
+            </p>
+        </button>
+   </div>
+   <div class="2018">
+        <button class="button18" onclick="gif2018()" id="b18" value="Change">
+            <p>
+                '18
+            </p>
+        </button>
+    </div>
+    <div class="2017">
+        <button class="button17" onclick="gif2017()" id="b17" value="Change">
+            <p>
+                '17
+            </p>
+        </button>
+   </div>
+   <div class="2016">
+        <button class="button16" onclick="gif2016()" id="b16" value="Change">
+            <p>
+                '16
+            </p>
+        </button>
+    </div>
+    <script>
+        function gif2016() {
+            var image = document.getElementById("recpl");
+            if (image.src.match("https://media.giphy.com/media/8j27Sbhwa3auBmkkjC/giphy.gif")) {
+                image.src = ("https://media.giphy.com/media/4KlNEh3JnSwrMk9B68/giphy.gif");
+            }
+            else{
+                image.src = ("https://media.giphy.com/media/8j27Sbhwa3auBmkkjC/giphy.gif");
+            }
+        }
+
+        function gif2017() {
+            var image = document.getElementById("recpl");
+            if (image.src.match("https://media.giphy.com/media/8j27Sbhwa3auBmkkjC/giphy.gif")) {
+                image.src = ("https://media.giphy.com/media/5Qvb0YvbeDXfndzAVE/giphy.gif");
+            }
+            else {
+                image.src = ("https://media.giphy.com/media/8j27Sbhwa3auBmkkjC/giphy.gif");
+            }
+        }
+
+        function gif2018() {
+            var image = document.getElementById("recpl");
+            if (image.src.match("https://media.giphy.com/media/8j27Sbhwa3auBmkkjC/giphy.gif")) {
+                image.src = ("https://media.giphy.com/media/EfEe8asHFdD33m6gui/giphy.gif");
+            }
+            else {
+                image.src = ("https://media.giphy.com/media/8j27Sbhwa3auBmkkjC/giphy.gif");
+            }
+        }
+
+        function gif2019() {
+            var image = document.getElementById("recpl");
+            if (image.src.match("https://media.giphy.com/media/8j27Sbhwa3auBmkkjC/giphy.gif")) {
+                image.src = ("https://media.giphy.com/media/Qu4zqi1387it73s4S2/giphy.gif");
+            }
+            else {
+                image.src = ("https://media.giphy.com/media/8j27Sbhwa3auBmkkjC/giphy.gif");
+            }
+        }
+    </script>
+</body>
+
+</html>
