@@ -18,6 +18,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.css"
     />
+    
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
@@ -27,20 +28,21 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <header>
-      <nav class="nav">
-        <a href="#" class="list"><button>HOME</button></a>
-        <a href="#text-box" class="list"><button>ABOUT US</button></a>
-        <a href="./pastevents/PastEvents.html" class="list"
-          ><button>PAST EVENTS</button></a
-        >
-        <a href="./gallery/gallery.html" class="list"
-          ><button>GALLERY</button></a
-        >
-        <a href="#panel" class="list"><button>PAST SPONSORS</button></a>
-        <a href="#footer-section" class="list"><button>CONTACT</button></a>
-      </nav>
-    </header>
+   
+      <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#contact">About Us</a>
+        <a href="#news">Events</a>
+    
+        <a href="#g">Gallery</a>
+        <a href="#g">Past Sponsors</a>
+        <a href="#g">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      
+  
 
     <section class="img-fluid balloon">
       <img src="./images/ball.png" class="balloon1" />
