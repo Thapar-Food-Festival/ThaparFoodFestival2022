@@ -16,7 +16,7 @@ body {
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 h1,
 h2 {
@@ -359,6 +359,123 @@ img#truck {
   animation: animateCloud 10s linear infinite;
 }
 
+@media only screen and (min-width: 768px) {
+  .Ribbon {
+    /* overflow: hidden; */
+    z-index: 2;
+    animation: floating 2s infinite;
+    position: relative;
+    left: -31px;
+  }
+
+  .TopRightCloud {
+    top: -10vh;
+    left: -28vw;
+  }
+
+  .TopLeftCloud {
+    left: 50vw;
+  }
+
+  .BottomRightCloud {
+    top: -30vh;
+    left: 10vh;
+  }
+
+  .BottomLeftCloud {
+    top: 5vh;
+    left: -60vh;
+  }
+
+  .BottomCloud {
+    top: -50vh;
+    left: 70vh;
+  }
+
+  .TLCloud {
+    position: absolute;
+    top: 50vh;
+    left: 70vw;
+  }
+  .TRCloud {
+    position: absolute;
+    top: 15vh;
+    left: 20vw;
+  }
+  .BRCloud {
+    position: absolute;
+    top: 30vh;
+    left: 10vw;
+  }
+  .BLCLoud {
+    position: absolute;
+    top: 15vh;
+    left: 70vw;
+  }
+  .BCloud {
+    position: absolute;
+    top: 15vh;
+    left: 70vw;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .Ribbon {
+    /* overflow: hidden; */
+    z-index: 2;
+    animation: floating 2s infinite;
+    position: relative;
+    left: -31px;
+  }
+
+  .TopRightCloud {
+    top: -25vh;
+    left: -28vw;
+  }
+
+  .TopLeftCloud {
+    left: 50vw;
+  }
+
+  .BottomRightCloud {
+    top: -45vh;
+    left: 10vh;
+  }
+
+  .BottomLeftCloud {
+    top: 2vh;
+    left: -60vh;
+  }
+
+  .BottomCloud {
+    left: 70vh;
+  }
+
+  .TLCloud {
+    position: absolute;
+    top: 15vh;
+    left: 70vw;
+  }
+  .TRCloud {
+    position: absolute;
+    top: 5vh;
+    left: 20vw;
+  }
+  .BRCloud {
+    position: absolute;
+    top: 30vh;
+    left: 10vw;
+  }
+  .BLCLoud {
+    position: absolute;
+    top: 15vh;
+    left: 70vw;
+  }
+  .BCloud {
+    position: absolute;
+    top: 15vh;
+    left: 70vw;
+  }
+}
 @keyframes animateCloud {
   0% {
     transform: translateX(0);
@@ -369,62 +486,6 @@ img#truck {
   }
 }
 
-.Ribbon {
-  /* overflow: hidden; */
-  z-index: 2;
-  animation: floating 2s infinite;
-  position: relative;
-  left: -31px;
-}
-
-.TopRightCloud {
-  top: -10vh;
-  left: -28vw;
-}
-
-.TopLeftCloud {
-  left: 50vw;
-}
-
-.BottomRightCloud {
-  top: 15vh;
-  left: 10vh;
-}
-
-.BottomLeftCloud {
-  top: 5vh;
-  left: -60vh;
-}
-
-.BottomCloud {
-  left: 70vh;
-}
-
-.TLCloud {
-  position: absolute;
-  top: 50vh;
-  left: 70vw;
-}
-.TRCloud {
-  position: absolute;
-  top: 15vh;
-  left: 20vw;
-}
-.BRCloud {
-  position: absolute;
-  top: 30vh;
-  left: 10vw;
-}
-.BLCLoud {
-  position: absolute;
-  top: 15vh;
-  left: 70vw;
-}
-.BCloud {
-  position: absolute;
-  top: 15vh;
-  left: 70vw;
-}
 @keyframes floating {
   0% {
     transform: translate(0, 0px);
