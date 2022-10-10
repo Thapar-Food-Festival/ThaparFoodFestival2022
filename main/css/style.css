@@ -297,9 +297,17 @@ img#truck {
   left: 78vh;
 }
 @media only screen and (max-device-width: 768px) {
+
   .balloon1 {
     height: 60vh !important;
     left: 6vh;
+  }
+  .container{
+    /* max-width: 8000px; */
+    width: 13000px;
+  }
+  .panel{
+    right: 209px !important;
   }
 }
 
@@ -476,6 +484,7 @@ img#truck {
     left: 70vw;
   }
 }
+
 @keyframes animateCloud {
   0% {
     transform: translateX(0);
@@ -668,3 +677,4 @@ ul {
 .row {
   display: flex;
 }
+
