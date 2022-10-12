@@ -10,6 +10,18 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"><link rel="stylesheet" href="./style.css">
 </head>
 <body>
+     <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#contact">About Us</a>
+        <a href="#news">Events</a>
+    
+        <a href="#g">Gallery</a>
+        <a href="#g">Past Sponsors</a>
+        <a href="#g">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
   
   <div class="sec">
     <div class="content">
@@ -138,4 +150,14 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"
   integrity="sha512-Q+G390ZU2qKo+e4q+kVcJknwfGjKJOdyu5mVMcR95NqL6XaF4lY4nsSvIVB3NDP54ACsS9rqhE1DVqgpApl//Q=="
   crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="./PastEvents.js"></script>
+   <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
 </body>
