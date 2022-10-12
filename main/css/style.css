@@ -1,3 +1,6 @@
+
+@import "/css/layout/footer.scss";
+
 #typing_text {
   display: none;
 }
@@ -513,13 +516,13 @@ ul {
   margin: 0px;
   padding: 0px;
 }
-.footer-section {
+/* .footer-section {
   background: #151414;
   position: relative;
 }
 .footer-cta {
   border-bottom: 1px solid #373636;
-}
+} */
 .single-cta i {
   color: #ff5e14;
   font-size: 30px;
@@ -540,7 +543,7 @@ ul {
   color: #757575;
   font-size: 15px;
 }
-.footer-content {
+/* .footer-content {
   position: relative;
   z-index: 2;
 }
@@ -658,12 +661,12 @@ ul {
 .copyright-text p {
   margin: 0;
   font-size: 14px;
-  color: #878787;
+  color: black;
 }
 .copyright-text p a {
   color: #ff5e14;
-}
-.footer-menu li {
+} */
+/* .footer-menu li {
   display: inline-block;
   margin-left: 20px;
 }
@@ -673,7 +676,7 @@ ul {
 .footer-menu li a {
   font-size: 14px;
   color: #878787;
-}
+} */
 .row {
   display: flex;
 }
