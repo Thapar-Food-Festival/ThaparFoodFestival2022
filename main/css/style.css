@@ -1328,3 +1328,30 @@ ul {
   display: flex;
 }
 
+.footer_text{
+  /* color :black; */
+  font-size: 2.3rem;
+}
+.footer_row{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+.col-1-of-4{
+    margin-right: 40px;
+}
+.footer_para{
+  /* color: black; */
+}
+.copyright{
+  /* color: black; */
+  font-size: 1rem;
+}
+.logo{
+  height: 334px;
+  width: 365px;
+}
+.cont{
+  position: relative;
+  top: -87px;
+}
