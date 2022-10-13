@@ -944,7 +944,7 @@ img#truck {
   animation: floating 2s infinite;
   height: 80vh;
   top: 3vh;
-  left: 55vh;
+  left: 38vw;
 }
 @media only screen and (max-device-width: 768px) {
 
@@ -958,6 +958,23 @@ img#truck {
   }
   .panel{
     right: 209px !important;
+  }
+  .footer_row{
+    display:flex;
+    justify-content: center;
+    background-color: black;
+    flex-direction: column;
+    align-items: center;
+    width: 1575px;
+}
+  .cont{
+    position: relative;
+    top: -87px;
+    font-size: 2.5rem;
+  }
+  .logo{
+    height: 650px !important;
+    width: 650px !important;
   }
 }
 
