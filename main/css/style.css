@@ -944,7 +944,7 @@ img#truck {
   animation: floating 2s infinite;
   height: 80vh;
   top: 3vh;
-  left: 78vh;
+  left: 55vh;
 }
 @media only screen and (max-device-width: 768px) {
 
