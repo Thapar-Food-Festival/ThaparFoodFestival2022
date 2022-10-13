@@ -13,13 +13,12 @@
 <body onload="myFunction()">
  <div id="loading"></div>
      <div class="topnav" id="myTopnav">
-        <a href="#home" class="active">Home</a>
-        <a href="#contact">About Us</a>
-        <a href="#news">Events</a>
-    
-        <a href="#g">Gallery</a>
-        <a href="#g">Past Sponsors</a>
-        <a href="#g">Contact</a>
+        <a href="../index.html#home/">Home</a>
+        <a href="../index.html#theme/">About Us</a>
+        <a href="./PastEvents.html"  class="active">Events</a>
+        <a href="../gallery/gallery.html">Gallery</a>
+        <a href="../index.html#pastsponsors/">Past Sponsors</a>
+        <a href="../index.html#contact/">Contact</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
           <i class="fa fa-bars"></i>
         </a>
@@ -135,6 +134,7 @@
    
   <!-- Gsap ScrollTrigger-->
   
+ 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -145,32 +145,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"
   integrity="sha512-Q+G390ZU2qKo+e4q+kVcJknwfGjKJOdyu5mVMcR95NqL6XaF4lY4nsSvIVB3NDP54ACsS9rqhE1DVqgpApl//Q=="
   crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="./PastEvents.js"></script>
-   <script>
-      function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-          x.className += " responsive";
-        } else {
-          x.className = "topnav";
-        }
-      }
-      </script>
-      
-      <!-- <script>
-       
-          var preloader = document.getElementById("loading");
-      
-            
-            function myFunction(){
-              preloader.style.display = 'none';
-              
-            };
-            $(document).ready(function(){
-            setTimeout(()=> {
-                $('.loading').remove();
-            } , 5000);
-        });
-	</script> -->
+
+   
   <script>
      (function(){
     var myDiv = document.getElementById("loading"),
@@ -187,4 +163,14 @@
     show();
   })();
   </script>
+     <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
 </body>
