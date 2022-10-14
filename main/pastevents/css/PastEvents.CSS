@@ -2,64 +2,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
 }
-
-header{
-  
-  width: 100%;
-  background-color: black;
-  height: 9%;
-  position: fixed;
-  z-index: 1000;
-}
-.nav{
-  margin: 0.5% 1%;
-  justify-content: space-between;
-
-}
-.nav button{
-  background-color: black;
-  font-size: large;
-  border-radius : 50px;
-  padding: 10px 13px;
-  color: white;
-}
-.nav button:hover{
-  cursor:pointer;
-  background-color: #cc2232;
-}
-
-
-
-
-/* .list button{
- /* margin: 5% 100px; */
-  /* margin-left: 5%; */
-  /* padding: 3% 0%;
- 
-  
-  background-color: black;
-  
-  border-radius : 50px;
-  
-  color: white;
-}
-.list button:hover{
-  
-  cursor: pointer;
-  background-color: #cc2232; */
-/* }  */
-.mac{
-  width: 12%;
-  height: 6vh;
-  background-color: black;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  margin-top: -1%;
-  margin-left: 42%;
-}
-
 
 body {
   height: 107vh;
@@ -67,15 +11,77 @@ body {
   /* height: 100%; */
 }
 
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 1.5%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  margin: 0 4%;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 25px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+@media screen and (max-device-width: 600px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-device-width: 600px) {
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
 section {
   position: relative;
-  margin-top: 2%;
   width: 100%;
   height: 100%;
-  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
+  top: -3px;
 }
 
 section:before {
@@ -91,7 +97,7 @@ section:before {
 .sec {
   position: relative;
   /* padding-bottom: 10px; */
-   overflow: hidden;
+  overflow: hidden;
 }
 
 h2 {
@@ -119,8 +125,8 @@ img#simran {
   position: absolute;
   /* top: 180%;
   z-index: 10000; */
-right: 1500px;
-  top: 90%;
+  right: 1500px;
+  top: 93%;
   width: 48px;
   height: 64px;
   /* width: 100%; */
@@ -129,21 +135,29 @@ right: 1500px;
 
 img#train {
   position: absolute;
-  /* right: 1000px; */
-  right: 80%;
-  top: 55%;
+  right: 1000px;
+  top: 75%;
   max-width: 100%;
-  height: 50%;
+  height: 209px;
   /* transform: scale(0); */
 }
 
 img#pe {
   position: absolute;
   /* right: 1000px; */
-  top: -5%;
+  top: -10%;
   left: 25%;
   max-width: 100%;
   height: 80%;
+  /* transform: scale(0); */
+}
+img#cs {
+  position: absolute;
+  /* right: 1000px; */
+  top: 10%;
+  left: 25%;
+  max-width: 100%;
+  height: 50%;
   /* transform: scale(0); */
 }
 
@@ -156,40 +170,39 @@ img#ue {
   height: 80%;
   /* transform: scale(0); */
 }
-.pastevent{
+.pastevent {
   /* color:black; */
-  background-color:#d9d9d9;
+  background-color: #d9d9d9;
   position: absolute;
-  /* width:400px; */
+  width: 400px;
   z-index: 2;
   /* position:top 20px; */
-  margin-left:  auto;
-  margin-top:10px;
+  margin-left: auto;
+  margin-top: 10px;
   text-align: center;
   /* left: 100%; */
- top: 10%;
+  top: 10%;
   display: block;
- 
+
   /* display: inline-block; */
 }
-.pastevent h2{
+.pastevent h2 {
   color: black;
 }
 
-.eventdes1{
- position: relative;
+.eventdes1 {
+  position: relative;
   background-color: #d9d9d9;
-  width:500px;
+  width: 500px;
   z-index: 1;
-  position:top 10px;
+  position: top 10px;
   margin: 5px;
   text-align: center;
-  height:300px;
+  height: 300px;
   clear: left;
   background: linear-gradient(to bottom, #d9d9d9, transparent);
- 
 }
-.eventdes1 h2{
+.eventdes1 h2 {
   color: black;
 }
 /* .eventdes2{
@@ -207,28 +220,27 @@ img#ue {
    display: inline-block;
 } */
 
-.eventimg{
+.eventimg {
   position: relative;
   width: 500px;
   height: 300px;
-  position:top 20px;
+  position: top 20px;
   margin: 5px;
   z-index: 2;
   clear: right;
-  
 }
-carouselslide{
+carouselslide {
   position: relative;
   /* width: 500px; */
   left: 50%;
   /* height: 300px; */
-top: 50%;
+  top: 50%;
   margin: 5px;
-  
+
   /* clear: right;   */
 }
 
-.aboutUs{
+.aboutUs {
   top: 200%;
 }
 /* .eventdes2 h2{
@@ -237,124 +249,194 @@ top: 50%;
   left: 500px;
   right: 500px;
 } */
-#pe{
+#pe {
   left: 35%;
- top: 10px;   
- /* margin-top: 5px; */
+  top: 10px;
+  /* margin-top: 5px; */
 }
-#ed1{
+#ed1 {
   top: 20%;
   left: 50%;
   /* to */
- /* top: 10px; */
- /* margin-top: 5px; */
+  /* top: 10px; */
+  /* margin-top: 5px; */
 }
-#ed2{
-   top: -18%;
+#ed2 {
+  top: -18%;
   left: 10%;
   /* right: 500px; */
- /* top: 10px; */
- /* margin-top: 5px; */
+  /* top: 10px; */
+  /* margin-top: 5px; */
 }
 
 :root {
-	--transparent-grey: rgba(0,0,0,0.5); 
+  --transparent-grey: rgba(0, 0, 0, 0.5);
 }
 
 /* Font for text */
-body { 
-	font-family: "Helvetic Neue", Sans-serif; 
+body {
+  font-family: "Helvetic Neue", Sans-serif;
 }
 
 /* Width of carousel */
-#window, #slide-container {
- 	width: 400px;
+#window,
+#slide-container {
+  width: 400px;
 }
 
 /* Height of carousel */
 #slide-container {
-	height: 200px;
-	overflow: hidden; 
-	position: relative; 
+  height: 200px;
+  overflow: hidden;
+  position: relative;
 }
 
 .slide {
-	width: 100%; 
-	min-height: 200px; 
+  width: 100%;
+  min-height: 200px;
 }
 
 .slides {
-	display: block; 
+  display: block;
 }
 
 /* Style of arrows */
 .arrow {
-	color: white; 
-	font-size: 26px; 
-	position: absolute; 
-	top: 50%; 
-	transform: translate(0%, -50%); 
-	padding: 16px; 
-	background-color: rgba(0,0,0,0); 
-	transition: background-color 0.3s ease; 
+  color: white;
+  font-size: 26px;
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%);
+  padding: 16px;
+  background-color: rgba(0, 0, 0, 0);
+  transition: background-color 0.3s ease;
 }
 
 .arrow:hover {
-	cursor: pointer;
-	background-color: var(--transparent-grey); 
+  cursor: pointer;
+  background-color: var(--transparent-grey);
 }
 
 #next {
-	left: 100%; 
-	transform: translate(-100%, -50%); 
-	border-radius: 4px 0px 0px 4px; 
+  left: 100%;
+  transform: translate(-100%, -50%);
+  border-radius: 4px 0px 0px 4px;
 }
 
 #previous {
-	border-radius: 0px 4px 4px 0px; 
+  border-radius: 0px 4px 4px 0px;
 }
 
 #text-bar {
-	background-color: var(--transparent-grey);
-	width: 100%;
-	height: 36px; 
-	position: absolute; 
-	top: 100%;
-	transform: translate(0%, -100%);  
-	text-align: center; 
-	height: 36px;
+  background-color: var(--transparent-grey);
+  width: 100%;
+  height: 36px;
+  position: absolute;
+  top: 100%;
+  transform: translate(0%, -100%);
+  text-align: center;
+  height: 36px;
   line-height: 36px;
 }
 
 #place {
-	padding: 0px;
-	margin: 0px; 
-	color: white;
-	position: relative;
-	display: inline-block;
+  padding: 0px;
+  margin: 0px;
+  color: white;
+  position: relative;
+  display: inline-block;
 }
 
 #dotsContainer {
-	width: 100%;
-	height: 20px; 
-	text-align: center; 
+  width: 100%;
+  height: 20px;
+  text-align: center;
 }
 
 .dots {
-	width: 8px;
-	height: 8px;
-	background-color: rgba(0,0,0,0.2); 
-	border-radius: 100%; 
-	display: inline-block; 
-	margin: 8px 2px; 
+  width: 8px;
+  height: 8px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 100%;
+  display: inline-block;
+  margin: 8px 2px;
 }
 
 .dots:hover {
-	cursor: pointer; 
-	background-color: rgba(0,0,0,0.4);
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .activeDot {
-	background-color: rgba(0,0,0,0.6); 
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
+.footer-section {
+  /* background: #151414; */
+  position: relative;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer_text {
+  /* color :black; */
+  font-size: 2.4rem;
+  color: white;
+}
+.footer_row {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+.col-1-of-4 {
+  margin-right: 2%;
+}
+.footer_para {
+  /* color: black; */
+}
+.copyright {
+  /* color: black; */
+  font-size: 1rem;
+}
+.logo {
+  height: 334px;
+  width: 365px;
+}
+.cont {
+  position: relative;
+  top: -87px;
+}
+
+.textpe {
+  position: absolute;
+  color: black;
+  top: -10%;
+  left: 25%;
+}
+
+#textpe {
+  position: absolute;
+  color: black;
+  top: -10%;
+  left: 25%;
+}
+
+.coming-soon-img{
+  z-index: 999 !important;
+}
+
+@media screen and (max-device-width: 768px) {
+  .coming-soon-img{
+    width: 500px;
+  }
+}
+@media screen and (min-device-width: 768px) {
+  .coming-soon-img{
+    width: 80%;
+  }
+}
+  
+}
