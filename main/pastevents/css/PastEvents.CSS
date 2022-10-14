@@ -424,19 +424,22 @@ ul {
   left: 25%;
 }
 
-.coming-soon-img{
+.coming-soon-img {
   z-index: 999 !important;
+  position: absolute;
+  left: 20%;
 }
 
 @media screen and (max-device-width: 768px) {
-  .coming-soon-img{
-    width: 500px;
+  .coming-soon-img {
+    width: 200px;
+    top: 40%;
   }
 }
 @media screen and (min-device-width: 768px) {
-  .coming-soon-img{
-    width: 80%;
+  .coming-soon-img {
+    width: 700px;
+    top: 20%;
+    left: 25%;
   }
-}
-  
 }
