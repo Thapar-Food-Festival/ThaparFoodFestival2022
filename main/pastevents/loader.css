@@ -7,3 +7,23 @@
 	 no-repeat center center;	
 	z-index: 99999;
 }
+
+.col-1-of-4 {
+  width: 24rem;
+  float: left; }
+  @media (max-width: 75em) {
+    .col-1-of-4 {
+      width: 100%; } }
+  .col-1-of-4:not(:last-child) {
+    margin-right: 6rem; }
+    @media (max-width: 75em) {
+      .col-1-of-4:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 6rem; } }
+
+       
+        
+        #myTopnav{
+          padding: 3%;
+
+        }

@@ -6,6 +6,13 @@ body{
 
 }
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
 #defseq{
     display: flex;
     margin-left: auto;
@@ -106,6 +113,7 @@ right: 54%;
 .footer_text{
   /* color :black; */
   font-size: 2.3rem;
+  margin-left: 20%;
 }
 .footer_row{
   display: flex;
@@ -117,10 +125,16 @@ right: 54%;
 }
 .footer_para{
   /* color: black; */
+  margin-left: 20%;
 }
 .copyright{
   /* color: black; */
   font-size: 1rem;
+  margin-top: 10%;
+  /* margin-right: 20%; */
+  top: 20%;
+  color: white;
+  left: 50%;
 }
 .logo{
   height: 334px;
@@ -131,3 +145,23 @@ right: 54%;
   top: -20%;
   color: white;
 }
+
+.col-1-of-4 {
+  width: 24rem;
+  float: left; }
+  @media (max-width: 75em) {
+    .col-1-of-4 {
+      width: 100%; } }
+  .col-1-of-4:not(:last-child) {
+    margin-right: 6rem; }
+    @media (max-width: 75em) {
+      .col-1-of-4:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 6rem; } }
+
+       
+        
+        #myTopnav{
+          padding: 3%;
+
+        }

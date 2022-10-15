@@ -20,8 +20,8 @@ gsap.to("#train", {
   scrollTrigger: {
     scrub: true,
   },
-  x: 1100,
-  y: 20,
+  x: 1000,
+  // y: 5,
   scale: 0.5,
 });
 
