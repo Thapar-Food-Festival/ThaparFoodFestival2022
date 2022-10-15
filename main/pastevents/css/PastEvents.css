@@ -400,6 +400,8 @@ ul {
 .copyright {
   /* color: black; */
   font-size: 1rem;
+  margin-top: 10%;
+  color: white;
 }
 .logo {
   height: 334px;
