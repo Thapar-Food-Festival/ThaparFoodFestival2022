@@ -9,7 +9,6 @@ body {
   height: 107vh;
   /* background:url("./bg.png"); */
   /* height: 100%; */
-  /* overflow: hidden; */
 }
 
 .topnav {
@@ -143,29 +142,6 @@ img#train {
   /* transform: scale(0); */
 }
 
-@media screen and (max-device-width: 768px) {
-img#simran {
-  position: absolute;
-  /* top: 180%;
-  z-index: 10000; */
-  right: 650px;
-  top: 90%;
-  width: 48px;
-  height: 64px;
-  /* width: 100%; */
-  /* transform: scale(0); */
-}
-
-img#train {
-  position: absolute;
-  right: 400px;
-  top: 75%;
-  max-width: 100%;
-  height: 209px;
-  /* transform: scale(0); */
-}
-}
-
 img#pe {
   position: absolute;
   /* right: 1000px; */
@@ -193,10 +169,6 @@ img#ue {
   max-width: 100%;
   height: 80%;
   /* transform: scale(0); */
-}
-
-.html,.body{
-  overflow-x: hidden;
 }
 .pastevent {
   /* color:black; */
@@ -328,7 +300,6 @@ body {
   display: block;
 }
 
-
 /* Style of arrows */
 .arrow {
   color: white;
@@ -413,12 +384,11 @@ ul {
 .footer_text {
   /* color :black; */
   font-size: 2.4rem;
-  /* align-items: center; */
   color: white;
 }
 .footer_row {
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   background-color: black;
 }
 .col-1-of-4 {
