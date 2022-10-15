@@ -1,5 +1,6 @@
 gsap.registerPlugin(ScrollTrigger);
-  
+
+let width=screen.width;
   
 let sections = gsap.utils.toArray(".panel");
 
@@ -47,7 +48,7 @@ gsap.to(".box-1 .typing_text", {
   }
 });
 
-
+if(width>=786){
 gsap.from("#truck", {
   scrollTrigger: {
     scrub: true,
@@ -66,7 +67,27 @@ gsap.to("#truck", {
   scale: 0.9,
   duration:1
 });
-
+}
+else{
+  gsap.from("#truck", {
+    scrollTrigger: {
+      scrub: true,
+    },
+    x: -2000,
+    // y: 10,
+    scale: 0.9,
+  });
+  
+  gsap.to("#truck", {
+    scrollTrigger: {
+      scrub: true,
+    },
+    x: -1000,
+    // y: 10,
+    scale: 0.9,
+    duration:1
+  });
+}
 
 
 // gray section
