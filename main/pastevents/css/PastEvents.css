@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Pacifico&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -18,6 +20,7 @@ body {
   margin-right: auto;
   text-align: center;
   padding: 1.5%;
+  font-weight: 500;
 }
 
 /* Style the links inside the navigation bar */
@@ -374,6 +377,7 @@ body {
 .footer-section {
   /* background: #151414; */
   position: relative;
+  font-family: 'Amaranth', sans-serif;
 }
 
 ul {
@@ -385,19 +389,24 @@ ul {
   /* color :black; */
   font-size: 2.4rem;
   color: white;
+  font-family: 'Amaranth', sans-serif;
 }
 .footer_row {
+  font-family: 'Amaranth', sans-serif;
   display: flex;
   justify-content: center;
   background-color: black;
 }
 .col-1-of-4 {
+  font-family: 'Amaranth', sans-serif;
   margin-right: 2%;
 }
 .footer_para {
+  font-family: 'Amaranth', sans-serif;
   /* color: black; */
 }
 .copyright {
+  font-family: 'Amaranth', sans-serif;
   /* color: black; */
   font-size: 1rem;
   margin-top: 10%;
@@ -444,4 +453,7 @@ ul {
     top: 20%;
     left: 25%;
   }
+}
+.footer{
+  font-family: 'Amaranth', sans-serif;
 }
