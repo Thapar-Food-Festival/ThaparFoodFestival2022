@@ -234,6 +234,7 @@ right: 54%;
 .map iframe,.fb iframe{
   height: 360px;
 }
+@media screen and (min-device-width: 786px){
 .cont{
   width: 1000px;
   position: relative;
@@ -248,4 +249,5 @@ right: 54%;
 .footer-box2{
   margin-top: 25px;
   padding-left: 40px;
+}
 }

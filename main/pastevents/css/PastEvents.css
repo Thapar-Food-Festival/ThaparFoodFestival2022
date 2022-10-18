@@ -700,6 +700,7 @@ ul {
 .footer{
   font-family: 'Amaranth', sans-serif;
 }
+@media screen and (min-device-width: 786px){
 .footer-box4{
   margin-top: 25px;
   padding-left:226px ;
@@ -711,4 +712,5 @@ ul {
 .cont{
   width: 1000px;
   margin-top: 20px
+}
 }
