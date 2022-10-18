@@ -231,3 +231,21 @@ right: 54%;
   left: 0;
 }
   }
+.map iframe,.fb iframe{
+  height: 360px;
+}
+.cont{
+  width: 1000px;
+  position: relative;
+    top: -15%;
+    color: white;
+    left: -165px;
+}
+.footer-box4{
+  margin-top: 25px;
+  padding-left:226px ;
+}
+.footer-box2{
+  margin-top: 25px;
+  padding-left: 40px;
+}
