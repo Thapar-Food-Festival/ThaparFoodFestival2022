@@ -39,7 +39,7 @@ gsap.to("#ue", {
     scrub: true,
   },
   x: -1050,
-    y: 80,
+  y: 80,
   // scale: 0.7,
 });
 

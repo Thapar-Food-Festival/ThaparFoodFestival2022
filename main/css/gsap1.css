@@ -3,6 +3,13 @@ html {
   scroll-behavior: smooth;
 }
 
+
+.tffxb{
+  align-items: center;
+  /* font-style: bold; */
+  /* font-weight: bold; */
+  color: black;
+}
 header {
   width: 100%;
   /* justify-content: space-between; */
