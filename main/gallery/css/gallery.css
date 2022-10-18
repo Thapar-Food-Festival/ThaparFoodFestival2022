@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Pacifico&display=swap');
+
 body{
     background: url(./old-grunge-dark-textured-wooden-background-surface-old-brown-wood-texture.jpg);
     background-size:     cover;                     
@@ -45,7 +47,7 @@ right: 54%;
 
 
 .topnav {
-  background-color: #333;
+  /* background-color: #333; */
   overflow: hidden;
   margin-left: auto;
   margin-right: auto;
@@ -112,10 +114,13 @@ right: 54%;
 }
 .footer_text{
   /* color :black; */
+  font-family: 'Amaranth', sans-serif;
   font-size: 2.3rem;
   margin-left: 20%;
+  color: white;
 }
 .footer_row{
+  font-family: 'Amaranth', sans-serif;
   display: flex;
   justify-content: center;
   background-color: black;
@@ -124,11 +129,13 @@ right: 54%;
     margin-right: 40px;
 }
 .footer_para{
+  font-family: 'Amaranth', sans-serif;
   /* color: black; */
   margin-left: 20%;
 }
 .copyright{
   /* color: black; */
+  font-family: 'Amaranth', sans-serif;
   font-size: 1rem;
   margin-top: 10%;
   /* margin-right: 20%; */
@@ -165,3 +172,62 @@ right: 54%;
           padding: 3%;
 
         }
+@media screen and (max-device-width: 786px) {
+  .seq{
+    display: flex;
+    flex-direction: column;
+  }
+  .year2018{
+    position: relative;
+    top: -105px;
+    left: 120px;
+    width: 84vw;
+  }
+  #b18 {
+    position: relative;
+    /* left: -80%; */
+    right: -25%;
+  }
+    #b17 {
+    position: relative;
+    /* left: -80%; */
+    right: -28%;
+}
+    #b16 {
+    position: relative;
+    /* left: -80%; */
+    right: -31%;
+}
+  .footer_row{
+    flex-direction: column;
+  }
+  .logo {
+    height: 334px;
+    width: 365px;
+    left: 70px;
+    position: relative;
+    top: 20px;
+}
+.cont {
+  position: relative;
+  color: white;
+  left: -69px;
+}
+.instafooter,.fbfooter{
+  margin-left:0 ;
+}
+.footer-box4,.footer-box2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.map iframe{
+  /* left: 108px; */
+    position: relative;
+}
+.fb iframe{
+  position: relative;
+  left: 0;
+}
+  }
