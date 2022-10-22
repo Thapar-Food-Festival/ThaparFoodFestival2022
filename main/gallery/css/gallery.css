@@ -132,6 +132,8 @@ right: 26%;
   font-family: 'Amaranth', sans-serif;
   /* color: black; */
   margin-left: 20%;
+  font-size: 1.16rem;
+  padding-top: 15px;
 }
 .copyright{
   /* color: black; */
@@ -244,7 +246,7 @@ right: 26%;
 }
 .footer-box4{
   margin-top: 25px;
-  padding-left:226px ;
+  padding-left:239px ;
 }
 .footer-box2{
   margin-top: 25px;
