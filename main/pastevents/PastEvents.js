@@ -22,7 +22,7 @@ gsap.to("#train", {
   },
   x: 1000,
 //   y: 200,
-  scale: 0.7,
+  // scale: 0.7,
 });
 
 gsap.to("#pe", {
