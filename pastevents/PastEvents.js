@@ -10,7 +10,7 @@ gsap.to("#simran", {
   scrollTrigger: {
     scrub: true,
   },
-  x: 1130,
+  x: 680,
   // y: 500,
   // y: -1800,
   scale: 0.8,
@@ -20,7 +20,7 @@ gsap.to("#train", {
   scrollTrigger: {
     scrub: true,
   },
-  x: 1000,
+  x: 500,
 //   y: 200,
   scale: 0.7,
 });
