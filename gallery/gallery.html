@@ -1,158 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-     <meta
-      name="viewport"
-      content="width=device-width, initial-scale=0.5, maximum-scale=0.5, user-scalable=no"
-    />
-    <title>Gallery</title>
-    <link rel="stylesheet" type="text/css" href="./css/gallery.css" />
+  <meta charset="UTF-8">
+  <title>Thapar Food Festival- Gallery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="gallery.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Playfair+Display:700|Raleway:500.700'><link rel="stylesheet" href="./style.css">
+
 </head>
 <body onload="myFunction()">
-     <div id="loading"></div>
-      <div class="topnav" id="myTopnav">
-        <a href="../index.html#home/">Home</a>
-        <!-- <a href="../index.html#theme/">About Us</a> -->
-        <a href="../pastevents/PastEvents.html"  >Events</a>
-        <a href="../gallery/gallery.html" class="active">Gallery</a>
-        <!-- <a href="../index.html#pastsponsors/">Past Sponsors</a> -->
-        <a href="../index.html#contact/">Contact</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
-      </div>
-   <div class="seq" id="defseq">
-        <img src="https://i.postimg.cc/L5jRZr9V/def-disc.png" id="recpl">
-        <div class="year2019">
-            <button class="button19" onclick="gif2019()" id="b19" value="Change">
-                <img src="https://i.postimg.cc/Hx0NgHBX/logo-2019.jpg" width="100" height="100" id="btn19">
-            </button>
-       </div>
-       <div class="year2018">
-            <button class="button18" onclick="gif2018()" id="b18" value="Change">
-                <img src="https://i.postimg.cc/MHdrn5kG/logo-2018.jpg" width="100" height="100" id="btn18">
-            </button>
-            <button class="button17" onclick="gif2017()" id="b17" value="Change">
-                <img src="https://i.postimg.cc/jqX13xWr/logo-2017.jpg" width="100" height="100" id="btn17">
-            </button>
-            <button class="button16" onclick="gif2016()" id="b16" value="Change">
-                <img src="https://i.postimg.cc/BQnVdrDP/logo-2016.jpg" width="100" height="100" id="btn16">
-            </button>
-        </div>
-        <!-- <div class="year2017"> -->
-       <!-- </div> -->
-       <!-- <div class="year2016"> -->
-        <!-- </div> -->
-   </div>
-   <img
-      src="sass/img/footer-background.jpg"
-      alt=""
-      width="100%"
-      <footer class="footer" id="footer">
-      <!-- style="margin-bottom: -2rem" -->
-      <!-- <div class="footer_logo-box">
-    <img src="sass/img/white_logo.png" alt="logo" class="footer_logo"></div> -->
-      <div class="row footer_row" id="contact">
-        <div class="col-1-of-4 footer-box1">
-          <img src="./css/logo.png" class="logo" alt="logo">
-          <div class="cont">
-          <h2 class="footer_text">CONTACT US</h2>
-          <p class="footer_para">
-            To know more about this unique amalgamation of food,fun and
-            enjoyment, reach us 
-          </p>
-          <p class="footer_para">Email &rarr; thaparfoodfestival@thapar.edu</p>
-        </div>
-        </div>
+  <div class="topnav" id="myTopnav">
+      <a href="../index.html">Home</a>
+      <!-- <a href="#theme">About Us</a> -->
+      <a href="../pastevents/PastEvents.html">Events</a>
 
-       
-      
-        <div
-          class="col-1-of-4 
-    footer-box4"
-        >
-          <h2 class="footer_text instafooter">Instagram</h2>
-          <i class="map"
-            ><iframe
-              src="https://www.instagram.com/thaparfoodfestival/"
-              width="260"
-              height="300"
-              frameborder="0"
-              style="border:0;  padding-top: 1rem"
-              allowfullscreen
-            ></iframe
-          ></i>
-        </div>
-        <div class="col-1-of-4  footer-box2">
-          <h2 class="footer_text fbfooter">Facebook</h2>
-          <i class="fb"
-            ><iframe
-              src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fthaparfoodfestival&tabs=timeline&width=260&height=380&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
-              width="260"
-              height="300"
-              style="border:none;overflow:hidden;padding-top: 1rem "
-              scrolling="no"
-              frameborder="0"
-              allowTransparency="true"
-              allow="encrypted-media"
-            ></iframe
-          ></i>   <div class="copyright">
-            <div class="copyright_text">
-              &COPY; Copyright THAPAR FOOD FESTIVAL 2022<span class="copyright_span"
-                >
-              </span>  </div>
-          
-       
-          </div>
-        </div>
-      </div>
-    </footer>
+      <a href="../gallery/gallery.html" class="active">Gallery</a>
+      <!-- <a href="#pastsponsors">Past Sponsors</a> -->
+      <a href="../index.html#contact">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+<!-- partial:index.partial.html -->
+<!-- <h1 class="title">Gallery</h1> -->
 
-    <script>
-        function gif2016() {
-            var image = document.getElementById("recpl");
-            if (image.src.match("https://i.postimg.cc/L5jRZr9V/def-disc.png")) {
-                image.src = ("2016.gif");
-            }
-            else{
-                image.src = ("https://i.postimg.cc/L5jRZr9V/def-disc.png");
-            }
-        }
+<div id="app" class="container">
+  <a href="./2016/index.html">
 
-        function gif2017() {
-            var image = document.getElementById("recpl");
-            if (image.src.match("https://i.postimg.cc/L5jRZr9V/def-disc.png")) {
-                image.src = ("2017.gif");
-            }
-            else {
-                image.src = ("https://i.postimg.cc/L5jRZr9V/def-disc.png");
-            }
-        }
+    <card data-image="./images/logo_2016.jpeg">
+      <h1 slot="header">TFF-2016</h1>
+      <p slot="content">The Beginning;</p>
+    </card>
+  </a>
+  <a href="./2017/index.html">
 
-        function gif2018() {
-            var image = document.getElementById("recpl");
-            if (image.src.match("https://i.postimg.cc/L5jRZr9V/def-disc.png")) {
-                image.src = ("2018.gif");
-            }
-            else {
-                image.src = ("https://i.postimg.cc/L5jRZr9V/def-disc.png");
-            }
-        }
+    <card data-image="./images/logo_2017.jpg">
+      <h1 slot="header">TFF-2017</h1>
+      <p slot="content">Daastaan-e-Hindustan</p>
+    </card>
+  </a>
+   <a href="./2018/index.html">
 
-        function gif2019() {
-            var image = document.getElementById("recpl");
-            if (image.src.match("https://i.postimg.cc/L5jRZr9V/def-disc.png")) {
-                image.src = ("2019.gif");
-            }
-            else {
-                image.src = ("https://i.postimg.cc/L5jRZr9V/def-disc.png");
-            }
-        }
-    </script>
-     <script>
+     <card data-image="./images/logo_2018.jpeg">
+       <h1 slot="header">TFF-2018</h1>
+       <p slot="content">The Wandering Fork</p>
+      </card>
+    </a>
+     <a href="./2019/index.html">
+    
+       <card data-image="./images/Tff_logo.png">
+         <h1 slot="header">TFF-2019</h1>
+         <p slot="content">The Culinary Cosplay</p>
+        </card>
+      </a>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.min.js'></script><script  src="./script.js"></script>
+<script>
       function myFunction() {
         var x = document.getElementById("myTopnav");
         if (x.className === "topnav") {
@@ -161,33 +66,6 @@
           x.className = "topnav";
         }
       }
-      </script>
-       <!-- <script>
-
-		var preloader = document.getElementById("loading");
-		
-
-		function myFunction(){
-      preloader.style.display = 'none';
-		};
-	</script> -->
-  <!-- preloader.display='9000'; -->
-  <script>
-     (function(){
-    var myDiv = document.getElementById("loading"),
-
-      show = function(){
-        myDiv.style.display = "block";
-        setTimeout(hide, 3000); 
-      },
-
-      hide = function(){
-        myDiv.style.display = "none";
-      };
-
-    show();
-  })();
-  </script>
+    </script>
 </body>
-
 </html>
