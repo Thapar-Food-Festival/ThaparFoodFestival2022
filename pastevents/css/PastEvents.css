@@ -33,7 +33,7 @@
 
 #myCarousel .carousel-item .mask {
   position: absolute;
-  top: 0;
+  top: 100px;
   left: 0;
   height: 100%;
   width: 100%;
@@ -281,6 +281,7 @@ body {
 }
 
 .topnav {
+  background: #a9b8d3;
   overflow: hidden;
   margin: 0 auto;
   z-index: 1;
@@ -432,7 +433,7 @@ img#train {
   img#train {
     position: absolute;
     right: 400px;
-    top: 72%;
+    top: 76%;
     max-width: 100%;
     height: 209px;
     /* transform: scale(0); */
@@ -526,7 +527,11 @@ img#train {
 }
 
 @media screen and (max-device-width: 768px) {
+  .footer{
+    display: none;
+  }
   img#simran {
+    display: none;
     position: absolute;
     /* top: 180%;
   z-index: 10000; */
@@ -539,6 +544,7 @@ img#train {
   }
 
   img#train {
+    display: none;
     position: absolute;
     right: 400px;
     top: 76%;
