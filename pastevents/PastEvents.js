@@ -5,7 +5,9 @@
 //   y: 200,
 //   scale: 1.2,
 // });
+let width=screen.width;
 
+if(width>768){
 gsap.to("#simran", {
   scrollTrigger: {
     scrub: true,
@@ -24,7 +26,28 @@ gsap.to("#train", {
 //   y: 200,
   scale: 0.7,
 });
+}
+else{
+  gsap.to("#simran", {
+    scrollTrigger: {
+      scrub: true,
+    },
+    x: 590,
+    // y: 500,
+    // y: -1800,
+    scale: 0.8,
+  });
+  
+  gsap.to("#train", {
+    scrollTrigger: {
+      scrub: true,
+    },
+    x: 500,
+  //   y: 200,
+    scale: 0.7,
+  });
 
+}
 gsap.to("#pe", {
   scrollTrigger: {
     scrub: true,
