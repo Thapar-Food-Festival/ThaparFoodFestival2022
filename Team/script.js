@@ -70,6 +70,8 @@ Vue.component('card', {
       }, 1000);
     } } });
 
+    
+
 
 
 const app = new Vue({

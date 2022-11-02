@@ -1,7 +1,12 @@
 body{
-     background-image: url("/Team/images/galllerybg.jpeg");
- background-repeat: no-repeat;
- background-size: cover; 
+     /* background-image: url("/Team/images/galllerybg.jpeg"); */
+ /* background-repeat: no-repeat;
+ background-size: cover;  */
+ background-color: black;
+ /* z-index: 0; */
+}
+.cont9{
+    z-index: 1;
 }
 .container{
     padding: 33px 80px;
@@ -10,6 +15,7 @@ body{
     justify-content: center;
     align-items: center;
     margin: auto;
+    z-index: 1;
     width: 886px;
 }
 .cont{
