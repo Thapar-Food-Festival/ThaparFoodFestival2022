@@ -12,6 +12,7 @@ body{
     padding: 33px 80px;
     display: flex;
     flex-wrap: wrap;
+    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
     margin: auto;
@@ -52,4 +53,13 @@ body{
     .container{
         width: auto;
     }
+}
+@media screen and  (min-device-width:769px){
+    #app{
+        /* width: auto; */
+        padding: 33px 31px;
+    }
+}
+.cont2{
+    /* flex-direction: column; */
 }
