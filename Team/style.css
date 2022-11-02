@@ -16,14 +16,14 @@ body {
   z-index: 1;
   padding: 2%;
   text-align: center;
-  background-color: #a3c7d6;
+  background-color: black;
 }
 
 .topnav a {
   float: center;
   display: inline;
   margin: 0 8%;
-  color: black;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
