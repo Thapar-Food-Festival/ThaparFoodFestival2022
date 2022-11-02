@@ -1388,3 +1388,11 @@ footer {
   position: relative;
   top: 28px;
 }
+.team{
+  font-family: "Amaranth", sans-serif;  
+  text-decoration:none;
+  color: red;
+}
+.team:hover{
+  text-decoration: underline;
+}
