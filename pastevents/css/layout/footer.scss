@@ -1,0 +1,65 @@
+.footer-box1{
+    @include respond(phone){
+    margin-left: 3.5rem;
+      }
+}
+.footer-box2{
+  
+    @include respond(phone){
+        margin-left: 3.5rem;
+      }
+    }
+.footer-box3{
+  
+    @include respond(phone){
+        margin-left: 3.5rem;
+          }
+}
+.footer-box4{
+  
+    @include respond(phone){
+        margin-left: 3.5rem;
+          }
+}
+.footer_text{
+    color:black;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    border-bottom: 0.6px black;
+    padding: 1rem;
+}
+.footer_para{
+    color:black;
+  line-height: 2rem;
+    padding: 1rem;
+  font-size: 1.5rem;  
+    font-family: 'Amaranth';
+    display: inline-block;
+    
+    @include respond(phone){
+        width: 80%;
+      }
+}
+
+ .footer_row {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    flex-direction: column;
+    align-items: center;
+    /* width: 754px; */
+  }
+
+  .footer_text {
+  /* color :black; */
+  font-size: 2.3rem;
+}
+.footer_row {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+footer {
+  font-family: "Amaranth", sans-serif;
+}
